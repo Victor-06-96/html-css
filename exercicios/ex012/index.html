@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>inserindo videos ospedados localmente</h1>
+    <p>este video está ospedado no meu próprio servidor.</p>
+    <video width="300" height="300" poster="imagens/aviao.jpeg" controls loop>
+        <source src="midia/video1.mp4" type="video/mp4">
+        <source src="midia/video1.ogv" type="video/ogv">
+        <p>o seu navegador nao tem compatibilidade com o video</p>
+        <!--é aconcelhavel converter e usar todos os formatos, pois exitem navegadores que nao carrega alguns formatos-->
+        <!--a ordem tem total influência (quando ele nao conseguir reproduzir o primeiro, vai para o segundo, e se nao conseguir vai indo para o proximo)-->
+    </video>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--para copiar o video do youtube, basta clicar em "compartilhar" no próprio video, depois em incorporar e copiar o codigo que o próprio youtube fornece-->
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="testes/testecadastro.html">
+        
+        <p>
+            <label for="iano">Em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2023"
+            oninput="iidade.innerHTML = Number(iatual.value) - Number(iano.value)">
+        </p>
+
+        <p>
+            <label for="iatual">Ano atual</label>
+            <input type="number" name="atual" id="iatual" min="2020" 
+            oninput="iidade.innerHTML = Number(iatual.value) - Number(iano.value)">
+        </p>
+
+        <p>
+            <label for="iidade">Idade</label>
+            <output id="iidade">Sua idade é: 0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

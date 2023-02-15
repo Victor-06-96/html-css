@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estudos de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        #tela {
+            border: 2px solid black;
+            width: 95vw;
+            height: 450px;
+            display: block;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>testando o uso de um iframe</h1>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, eum voluptates. Autem iure quas animi illo? Iure aperiam sunt labore consequuntur quos cupiditate, cum, dolor autem aspernatur qui veniam consequatur!</p>
+    <ul>
+        <li><a href="../ex023/tabela001.html" target="frame">Primeira página</a></li>
+        <li><a href="../ex023/tabela002.html" target="frame">Segunda Página</a></li>
+        <li><a href="../ex023/tabela03.html" target="frame">Terceira página</a></li>
+        <li><a href="../../../desafio/desafio4.tabelas/deafio04.html" target="frame">Quartar página</a></li>
+        <li><a href="../../../desafio/desafio4.tabelas/desafio05.html" target="frame">Quinta Página</a></li>
+        <li><a href="../../../desafio/desafio4.tabelas/desafio06.html" target="frame">Sexta Página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque. Officiis vero velit cum aut voluptatem quae ducimus veniam, corporis assumenda eligendi alias magni corrupti excepturi nam perspiciatis nisi consequuntur.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita eos, sunt soluta dignissimos est facere culpa eaque minima corporis provident dolores. Iusto, debitis quibusdam animi natus distinctio iure dolore ab!
+    </p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1 style='background-color: lightgrey; text-align: center; padding: 10px;'>Escolha uma das opções acima para carregar a página</h1>">
+        <p>Infelizmente seu navegador nao é compatível com isso...</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aliquid iusto tempora autem eaque voluptatum voluptate, officia nobis voluptatibus quis, maiores molestiae qui laboriosam quasi nostrum quaerat consequatur dolor facere!</p>
+
+</body>
+</html>

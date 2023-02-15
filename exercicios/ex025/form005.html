@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        .esp {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>sexo</legend>
+        <input type="radio" name="sexo" id="imas"><label for="imas">Masculino</label>
+        <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+    </fieldset>
+    <h1>Exemplo de formulário</h1>
+    <form action="testes/testecadastro.html">
+        <fieldset>
+            <legend>Espporte favoritos</legend>
+            <input class="esp" type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label> <br>
+            <input class="esp" type="checkbox" name="ten" id="iten"><label for="iten">tênis</label> <br>
+            <input class="esp" type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label> <br>
+            <input class="esp" type="checkbox" name="vol" id="ivol"><label for="ivol">Volei</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
