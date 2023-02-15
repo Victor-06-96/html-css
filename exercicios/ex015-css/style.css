@@ -10,3 +10,11 @@
 
         p {color: rgb(133, 20, 238);
         text-align: justify;}
+
+
+        #det {
+            text-align: right;
+            margin-top: 45px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
